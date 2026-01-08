@@ -206,6 +206,57 @@ body {
     }
 }
 
+@media (max-width: 480px) {
+    .title {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    .right-section {
+        padding: 2rem 1rem;
+    }
+
+    .left-section {
+        padding: 1rem;
+        min-height: 250px;
+    }
+
+    .geometric-shape {
+        max-width: 80%;
+    }
+
+    .ripple-graphic {
+        max-width: 300px;
+        margin-bottom: 2rem;
+    }
+
+    .buttons {
+        gap: 1rem;
+        margin-bottom: 2rem;
+        justify-content: center;
+    }
+
+    .btn {
+        padding: 0.75rem 2rem;
+        min-width: auto;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 0.9rem;
+        line-height: 1.4;
+        max-width: none;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+}
+
 /* Loading Screen Styles */
 .loading-screen {
     position: fixed;
@@ -318,6 +369,34 @@ body {
     
     .loading-bar-item:nth-child(3) {
         height: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .loading-logo {
+        width: 120px;
+        height: 110px;
+    }
+    
+    .loading-content {
+        gap: 2rem;
+    }
+    
+    .loading-bars {
+        gap: 0.3rem;
+        height: 30px;
+    }
+    
+    .loading-bar-item {
+        width: 2.5px;
+    }
+    
+    .loading-bar-item:nth-child(2) {
+        height: 12px;
+    }
+    
+    .loading-bar-item:nth-child(3) {
+        height: 8px;
     }
 }
 /* Custom animated cursor */
